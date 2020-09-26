@@ -1,0 +1,8 @@
+version: '1'
+services:
+  web:
+    build: ./
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 80:80
